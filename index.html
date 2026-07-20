@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +13,7 @@
             color: #222;
         }
         .page-container {
-            width: 760px; /* Widened to fill the left and right marked limits */
+            width: 760px; 
             margin: 0 auto;
         }
         .receipt { 
@@ -26,7 +27,7 @@
         header { 
             background-color: #7b1e7a; 
             color: white; 
-            padding: 22px 28px; /* Expanded height to match proportions */
+            padding: 30px 28px; 
             position: relative;
             min-height: 60px;
             display: flex;
@@ -36,7 +37,7 @@
         .logo { 
             position: absolute;
             left: 28px;
-            width: 38px; 
+            width: 42px; 
             height: auto; 
         }
         .header-content {
@@ -45,37 +46,37 @@
         }
         header h2 { 
             margin: 0; 
-            font-size: 16px; 
+            font-size: 18px; 
             font-weight: bold;
         }
         header p { 
-            margin: 4px 0 0 0; 
-            font-size: 11.5px; 
+            margin: 6px 0 0 0; 
+            font-size: 13px; 
         }
 
         /* Top Info Grid */
         .top-info { 
             display: flex; 
             justify-content: space-between;
-            padding: 16px 28px 10px 28px; /* Reduced vertical padding */
+            padding: 35px 28px 25px 28px; 
             box-sizing: border-box;
         }
         .col { 
             width: 48%; 
         }
         h3 { 
-            font-size: 11.5px; 
+            font-size: 12.5px; 
             font-weight: bold;
             border-bottom: 1px solid #dcdcdc; 
-            padding-bottom: 6px; 
-            margin: 0 0 10px 0; /* Reduced margin */
+            padding-bottom: 8px; 
+            margin: 0 0 16px 0; 
             color: #111; 
         }
         .row { 
             display: flex; 
             justify-content: space-between; 
-            margin-bottom: 5px; /* Reduced row height spacing to fit top red line */
-            font-size: 11px; 
+            margin-bottom: 12px; 
+            font-size: 11.5px; 
             border-bottom: none !important;
             padding-bottom: 0 !important;
         }
@@ -93,20 +94,20 @@
 
         /* Transaction Section */
         .transaction-section {
-            padding: 4px 28px 16px 28px; /* Reduced bottom padding */
+            padding: 4px 28px 35px 28px;
         }
         .transaction-box { 
             border: 1px solid #dcdcdc; 
-            padding: 14px 22px; /* Reduced internal vertical padding to fit top red line */
+            padding: 24px 26px; 
             position: relative; 
             box-sizing: border-box;
             background: #fff;
         }
         .transaction-box h3 {
             margin-top: 0;
-            margin-bottom: 10px;
+            margin-bottom: 18px;
             border-bottom: 1px solid #dcdcdc; 
-            padding-bottom: 6px;
+            padding-bottom: 8px;
             text-align: left;
         }
         .watermark-stamp { 
@@ -114,7 +115,7 @@
             top: 55%; 
             left: 50%; 
             transform: translate(-50%, -50%) rotate(-12deg); 
-            width: 170px; /* Scaled down stamp slightly to save space */
+            width: 220px; 
             opacity: 0.85; 
             pointer-events: none; 
             border: none !important; 
@@ -126,10 +127,10 @@
         .trans-row { 
             display: flex; 
             justify-content: space-between; 
-            padding-bottom: 6px; /* Reduced row spacing */
-            margin-bottom: 6px; 
+            padding-bottom: 12px; 
+            margin-bottom: 12px; 
             border-bottom: 1px solid #f0f0f0; 
-            font-size: 11px; 
+            font-size: 11.5px; 
             position: relative;
             z-index: 3;
         }
@@ -141,37 +142,37 @@
             font-weight: bold; 
             border-top: 1px solid #dcdcdc; 
             border-bottom: none !important;
-            padding-top: 10px; 
+            padding-top: 16px; 
             padding-bottom: 0 !important;
-            margin-top: 10px; 
+            margin-top: 16px; 
             margin-bottom: 0 !important;
         }
 
         /* Footer Box (Amount & QR) */
         .footer-box-container {
-            padding: 0 28px 16px 28px;
+            padding: 0 28px 35px 28px;
         }
         .footer-box { 
             border: 1px solid #dcdcdc; 
             background: #f8f9fa; 
-            padding: 12px 20px; /* Reduced padding */
+            padding: 22px 24px; 
             display: flex; 
             justify-content: space-between; 
             align-items: center; 
             box-sizing: border-box;
             position: relative;
-            min-height: 52px; 
+            min-height: 85px; 
         }
         .amount-word { 
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
             text-align: center;
-            font-size: 11px;
-            line-height: 1.4;
+            font-size: 12px;
+            line-height: 1.5;
         }
         .amount-word strong {
-            font-size: 11px;
+            font-size: 12px;
             color: #111;
             font-weight: bold;
         }
@@ -179,40 +180,40 @@
             margin-left: auto;
         }
         .qr { 
-            width: 50px; /* Scaled down QR size */
-            height: 50px;
+            width: 70px; 
+            height: 70px;
             display: block;
         }
 
         /* Bottom Brand Footer */
         .receipt-footer { 
             text-align: center; 
-            font-size: 10px; 
+            font-size: 11px; 
             color: #7b1e7a; 
-            padding-bottom: 14px;
+            padding-bottom: 30px;
         }
         .receipt-footer p {
-            margin: 2px 0;
+            margin: 5px 0;
         }
         .receipt-footer p:first-child {
             font-weight: bold;
         }
         .receipt-footer p:last-child {
             color: #555;
-            font-size: 9px;
+            font-size: 10px;
         }
 
-        /* Download Button Container - Positioned precisely at the bottom marked region */
+        /* Download Button Container - Positioned precisely at the lower circled mark */
         .btn-container {
-            margin: 15px 0 15px 0; /* Reduced margin to pull button up to the lower red line */
+            margin: 120px 0 35px 0; 
             text-align: center;
         }
         .download-btn {
             background-color: #7b1e7a;
             color: white;
             border: none;
-            padding: 12px 32px;
-            font-size: 13px;
+            padding: 14px 40px; 
+            font-size: 14px;
             border-radius: 4px;
             cursor: pointer;
             font-weight: bold;
